@@ -25,4 +25,4 @@ browse around using the links and search. this site will grow over time as i add
 
 ---
 
-*last updated: august 2025*
+_last updated: august 2025_

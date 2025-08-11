@@ -1,6 +1,7 @@
 import { FilePath, joinSegments } from "../../util/path"
 import { QuartzEmitterPlugin } from "../types"
 import fs from "fs"
+import path from "path"
 import { styleText } from "util"
 
 export function extractDomainFromBaseUrl(baseUrl: string) {
@@ -17,13 +18,15 @@ export const CNAME: QuartzEmitterPlugin = () => ({
       )
       return []
     }
-    const path = joinSegments(argv.output, "CNAME")
+    const filePath = joinSegments(argv.output, "CNAME")
     const content = extractDomainFromBaseUrl(cfg.configuration.baseUrl)
     if (!content) {
       return []
     }
-    await fs.promises.writeFile(path, content)
-    return [path] as FilePath[]
+    // Ensure the directory exists before writing the file
+    await fs.promises.mkdir(path.dirname(filePath), { recursive: true })
+    await fs.promises.writeFile(filePath, content)
+    return [filePath] as FilePath[]
   },
   async *partialEmit() {},
 })
