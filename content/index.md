@@ -1,3 +1,9 @@
+---
+title: "Welcome to my personal hel"
+date: 2025-08-11
+tags: []
+---
+
 # welcome to my personal hel
 
 this is my digital garden where i collect thoughts, notes, and ideas.
