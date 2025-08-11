@@ -1,4 +1,7 @@
+# macOS stuff:
 .DS_Store
+
+# quartz stuff:
 .gitignore
 node_modules
 public
@@ -9,3 +12,4 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+
