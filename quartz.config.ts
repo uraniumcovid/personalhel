@@ -80,7 +80,7 @@ const config: QuartzConfig = {
       Plugin.CNAME(),
       Plugin.ContentPage(),
       Plugin.FolderPage(),
-      Plugin.TagPage(),
+      // Plugin.TagPage(), // Temporarily disabled due to build error
       Plugin.ContentIndex({
         enableSiteMap: true,
         enableRSS: true,
@@ -88,9 +88,9 @@ const config: QuartzConfig = {
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.Favicon(),
-      Plugin.NotFoundPage(),
+      // Plugin.NotFoundPage(), // Temporarily disabled due to build error
       // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      // Plugin.CustomOgImages(), // Temporarily disabled
     ],
   },
 }

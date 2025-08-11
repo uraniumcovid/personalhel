@@ -1,7 +1,9 @@
 ---
 title: "Welcome to my personal hel"
 date: 2025-08-11
-tags: []
+tags:
+  - welcome
+  - digital-garden
 ---
 
 # welcome to my personal hel
