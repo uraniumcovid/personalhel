@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-DK", 
-    baseUrl: "uraniumcovid.github.io/personalhel"",
+    baseUrl: "personalhel.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
