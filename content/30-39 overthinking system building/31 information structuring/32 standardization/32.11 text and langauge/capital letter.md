@@ -1,0 +1,5 @@
+a stupid way to encode text, since starting a sentence could just have been a universal symbol instead of having to make two different versions of each letter, often looking nothing alike, making it harder to learn without adding any value.
+
+> _it is inconsistent in language usage to write differently than to speak. we don’t speak big sounds, that’s why we don't write them either. and: doesn’t one say the same thing with one alphabet as with two alphabets? why does one merge two alphabets of completely different characters into one word or sentence and thereby make the written image inharmonic? either large or small. the large alphabet is illegible in the typesetting. therefore the small alphabet. and: if we think of the typewriter, the limitation to lower case characters means great relief and is time saving. and if we think further, it would be simplified by switching off upper case characters._ - [[herbert bayer]], 1926[^1]
+
+[^1]: [link to bauhaus-bookshelf.org](https://www.bauhaus-bookshelf.org/bauhaus_writing_in_small_letters_lower_case_only.html)
