@@ -43,11 +43,11 @@ const config: QuartzConfig = {
           light: "#000000",
           lightgray: "#000000",
           gray: "#646464",
-          darkgray: "#d4d4d4",
+          darkgray: "#ffffff",
           dark: "#ffffff",
           secondary: "#7b97aa",
           tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          highlight: "rgba(48, 13, 243, 0.15)",
           textHighlight: "#b3aa0288",
         },
       },
@@ -80,7 +80,7 @@ const config: QuartzConfig = {
       Plugin.CNAME(),
       Plugin.ContentPage(),
       Plugin.FolderPage(),
-      //Plugin.TagPage(), // Temporarily disabled due to build error
+      Plugin.TagPage(), // Temporarily disabled due to build error
       Plugin.ContentIndex({
         enableSiteMap: true,
         enableRSS: true,
@@ -88,9 +88,9 @@ const config: QuartzConfig = {
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.Favicon(),
-      //Plugin.NotFoundPage(), // Temporarily disabled due to build error
+      Plugin.NotFoundPage(), // Temporarily disabled due to build error
       // Comment out CustomOgImages to speed up build time
-      //Plugin.CustomOgImages(), // Temporarily disabled
+      Plugin.CustomOgImages(), // Temporarily disabled
     ],
   },
 }
