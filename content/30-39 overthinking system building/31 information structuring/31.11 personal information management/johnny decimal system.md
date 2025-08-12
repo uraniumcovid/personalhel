@@ -53,6 +53,8 @@ S
 \text{subject 19.09}\\
 \end{pmatrix} \\
 \end{bmatrix} \\  
+\\ \\
+\vdots \\
 \\
 \text{super-group 90-99: \quad}
 \begin{bmatrix}
@@ -79,6 +81,7 @@ S
 \end{bmatrix} \\  
 \end{Bmatrix}
 $$
+
 
 the idea is of course that the folder count can be changed as needed, but that you are forced to secure a shallow [[file tree]]. nothing stops you from using for other systems.
 
