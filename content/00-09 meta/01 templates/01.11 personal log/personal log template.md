@@ -1,4 +1,1 @@
 <font style="color:E40303">_</font><font style="color:FF8C00">_</font><font style="color:FFED00">_</font><font style="color:008018">_</font><font style="color:0066FF">_</font><font style="color:732982">_</font>
-
-
-
