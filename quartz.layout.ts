@@ -43,12 +43,12 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.Graph({
       localGraph: {
-        fontSize: 0.8,
+        fontSize: 1.2,
         opacityScale: 1,
         focusOnHover: false,
       },
       globalGraph: {
-        fontSize: 0.8,
+        fontSize: 1.2,
         opacityScale: 1,
         focusOnHover: false,
       },
