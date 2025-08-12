@@ -1,3 +1,5 @@
+![[drawing.jpeg]]
+
 # about the page
 
 this is a somewhat desperate attempt at organizing my notes and thoughts into something useful. it is a hel(l) of my own making.
