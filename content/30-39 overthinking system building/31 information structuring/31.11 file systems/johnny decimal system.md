@@ -80,11 +80,9 @@ S
 \end{Bmatrix}
 $$
 
----
+the idea is of course that the folder count can be changed as needed, but that you are forced to secure a shallow [[file tree]]. nothing stops you from using for other systems.
 
-# example
-in practice it looks like the index of the site:
-![[index#site-index]]
+the main disadvantage of using such a system (outside of initial time cost of making your index) is the lack of ability to store multi-category items. we, as humans, have a bad tendency to put things in boxes that defy such an inherent act of violence. so how do you solve that? as always, [[public voit]] has the answer: [[tagging]].
 
 [^1]: the "Johnny.Decimal system" is licensed  under Attribution-NonCommercial-ShareAlike 4.0 International [on their  website's license page](https://johnnydecimal.com/00-09-site-administration/01-about/01.02-licence/)
 [^2]: the numbers 00-09 are reserved for managing the system itself 
